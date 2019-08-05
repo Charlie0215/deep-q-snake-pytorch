@@ -1,9 +1,7 @@
 # Playing snake game with Pytorch Deep Q-Learning by Charlie D
 My intention to build this project is to practice deep q learning and pygame. The main goal of this project is to develop an AI bot which can learn to play the popular snake game. In order to compare the learning result with human performance, this project consists of two modes, manual and ai mode. More instruction can be found below. 
 
-Along the road of my research, I realized there are not a lot pytorch deep q sanke codes exist and some of them are rather complicated or require a long time to train. So I decided to implement a pytorch model, which can rapidly converge.
-
-I adopted the idea of network input data and some training technics from [here](https://towardsdatascience.com/how-to-teach-an-ai-to-play-games-deep-reinforcement-learning-28f9b920440a). According to the article, I used 11 boolean variables as the input. I rebuilt the model by using just 3 (input, hidden, output) fully connected layers. After some refinements, the model can converge after about 50 games.
+I adopted the idea of network input data and some training technics from [here](https://towardsdatascience.com/how-to-teach-an-ai-to-play-games-deep-reinforcement-learning-28f9b920440a). According to this article, I used 11 boolean variables as the input. I rebuilt the model by using just 3 (input, hidden, output) fully connected layers. After some refinements, the model can converge after about 50 games.
 
 
 ### Install
