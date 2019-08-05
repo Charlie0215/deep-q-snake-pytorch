@@ -49,7 +49,7 @@ python run.py
 <img src="img/step3.png" width=350>
 
 4. If you chose *train*, game will start to train and save the result in *./model*. You can press `esc` to quit the game
-<img src="img/.png" width=350>
+<img src="img/step_4_video.gif" width=350>
 Training result:
 <img src="img/step_4_result.png" width=350>
 
