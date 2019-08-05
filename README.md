@@ -12,7 +12,7 @@ To run this project, you need the following packages
 2. Pygame
 3. numpy
 4. matplotlib
-5. others - you will find out by running the code :P
+5. other packages - you will find out by running the code :P
 
 ### Command Base Usage
 1. If you want to run manual play mode:
