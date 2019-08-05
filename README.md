@@ -40,7 +40,7 @@ To start:
 python run.py
 ```
 1. Choose your option on game intro page.
-<img src="img/.png" width=350>
+<img src="img/step1.png" width=350>
 
 2. If you chose manual mode, you will see a white snake. Use w,a,s,d or up, down, left, right keys to control.
 <img src="img/.png" width=350>
