@@ -240,6 +240,7 @@ def train():
         if done == True:
             # One game is over, train on the memory and plot the result.
             sc = game.reset()
+            total_score += sc
             agent.train_long_memory(agent.memory)
             print('Game', agent.counter_games, '      Score:', sc)
             if sc > record:
@@ -273,12 +274,12 @@ def play():
     game = game_ai()
     while True:
         state = agent.get_state(game)
-        print(state)
         final_move = agent.get_action(state)
         reward, done, score = game.frameStep(final_move)
     
         if done == True:
             sc = game.reset()
+            total_score += sc
             print('Game', agent.counter_games, '      Score:', sc)
             if sc > record:
                 record = sc
