@@ -41,9 +41,11 @@ python run.py
 
 2. If you chose manual mode, you will see a white snake. Use w,a,s,d or up, down, left, right keys to control.
 <img src="img/step2.png" width=600>
+When your snake die, you can restart the game.
+<img src="img/step3.png" width=600>
 
 3. If you chose AI mode, you will have to choose to train bot or play bot
-<img src="img/step3.png" width=600>
+<img src="img/step_ai.png" width=600>
 
 4. If you chose *train*, game will start to train and save the result in *./model*. You can press `esc` to quit the game
 <img src="img/step_4_video.gif" width=500>
