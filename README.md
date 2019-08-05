@@ -43,16 +43,18 @@ python run.py
 <img src="img/step1.png" width=350>
 
 2. If you chose manual mode, you will see a white snake. Use w,a,s,d or up, down, left, right keys to control.
-<img src="img/.png" width=350>
+<img src="img/step2.png" width=350>
 
 3. If you chose AI mode, you will have to choose to train bot or play bot
-<img src="img/.png" width=350>
+<img src="img/step3.png" width=350>
 
 4. If you chose *train*, game will start to train and save the result in *./model*. You can press `esc` to quit the game
 <img src="img/.png" width=350>
+Training result:
+<img src="img/step4_graph.png" width=350>
 
 5. If you chose *play*, game will pick the weight saves in *./model* and play the game. Press `esc` to quit.
-<img src="img/.png" width=350>
+<img src="img/step5.png" width=350>
 
 ### TO-DO
 ---
